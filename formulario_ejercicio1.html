@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+	<link rel="stylesheet" type="text/css" href="C:\Users\Admin\Desktop\Ejercicios\Formulario_ejercicio1\formulario_ejercicio1.css">
+    <title>Reserva en el restaurante</title>
+	
+</head>
+<body>
+<h1>Reservas</h1>
+<form action="/next-page" method="post">
+    </fieldset>
+        <div>
+            <label for="Nombre">Tu nombre</label> 
+            <input type="text"  name="nombre" required><br><br>
+
+            <label for="Apellidos">Apellidos</label>
+            <input type="text"  name="Apellidos" name="Surname" placeholder="Apellidos" maxlength="25" required><br><br>
+            <label for="Teléfono">Teléfono de contacto</label> 
+            <input type="text"  name="Número de Teléfono" name="moblie_tlf" placeholder="Número de telefono" maxlength="9" required><br><br>
+        </div>
+    
+    <div>
+       <label for="peolple-box-people">Personas</label> 
+       <select class="form-control">
+        <option value="-1" disabled>Seleccione número de personas</option>
+        <option value="1">1 Persona</option>
+        <option value="2">2 Persona</option>
+        <option value="3">3 Persona</option>
+        <option value="4">4 Persona</option>
+        <option value="5">5 Persona</option>
+        <option value="6">6 Persona</option>
+        <option value="7">7 Persona</option>
+        <option value="8">8 Persona</option>
+        <option value="9">9 Persona</option>
+        <option value="10">10 Persona</option>
+        </select>
+    </div>
+     <div>
+        <label for="area-restaurant">Tipo de mesa</label> 
+        <select class="form-control">
+            <option value="-1" disabled>Seleccione la zona</option>
+          <option value="Terraza">Terraza</option>
+          <option value="Interior">Interior</option>
+          <option value="Terraza cubierta">Terraza cubierta</option> 
+        </select>
+     </div>
+     <div>
+        <h3>Si tiene alguna pregunta mándenos un comentario </h3>
+     </div>
+     <div>
+     <label for="comments">Comentarios:</label>
+     <textarea id="comments" type="text"  name="escriba aquí su comentario" name="comment" placeholder="Escriba aquí su comentario"></textarea>
+    </div>
+     <button type="submit" name="reservar">Reservar</button>
+
+    </fieldset>
+</form>
+<h2>MOZZABAR</h2>
+<H3>FOOD & DRINK</H3>
+<P>Conde de Peñalver 64</P>
+<p>28006 - Madrid</p>
+<p>Abierto de lunes a domingo</p>
+<p>de 07,30 - 23,30</p>
+</body>
+</html>
